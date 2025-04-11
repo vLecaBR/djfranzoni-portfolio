@@ -38,7 +38,6 @@ export default function Home() {
         <SectionContent as={motion.div} initial={{ opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1 }}>
           <h1 style={{ fontSize: '5rem', marginBottom: '1rem', textShadow: '0 0 25px #ec4899' }}>DJ Franzoni</h1>
           <Text style={{ fontSize: '1.5rem' }}>Energia, ritmo e vibração nos melhores eventos.</Text>
-          <SubmitButton style={{ marginTop: '2rem' }}>Solicitar Orçamento</SubmitButton>
         </SectionContent>
       </Section>
 
@@ -110,14 +109,6 @@ export default function Home() {
       {/* Contato */}
       <Section>
         <SectionContent as={motion.div} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.8 }}>
-          <Title>Contato / Solicitar Orçamento</Title>
-          <Form>
-            <Input type="text" placeholder="Nome" required />
-            <Input type="email" placeholder="Email" required />
-            <Input type="text" placeholder="Tipo de Evento" />
-            <Textarea rows="5" placeholder="Mensagem" />
-            <SubmitButton type="submit">Solicitar Orçamento</SubmitButton>
-          </Form>
           <Text style={{ marginTop: '2rem' }}>
             Siga nas redes sociais:
             <br />
