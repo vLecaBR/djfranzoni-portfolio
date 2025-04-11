@@ -19,7 +19,7 @@ import {
 
 export default function Home() {
   useEffect(() => {
-    document.title = 'DJ Electra - Portfolio';
+    document.title = 'DJ Franzoni - Portfolio';
   }, []);
 
   return (
@@ -27,10 +27,10 @@ export default function Home() {
       <GlobalStyle />
 
       {/* Hero Section */}
-      <Section style={{ height: '100vh', paddingTop: 0 }}>
+      <Section style={{ height: '100vh', paddingTop: '50vh' }}>
         <Background image="/dj-photo.jpg" />
         <SectionContent as={motion.div} initial={{ opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1 }}>
-          <h1 style={{ fontSize: '4.5rem', marginBottom: '1rem', textShadow: '0 0 15px #ec4899' }}>DJ Electra</h1>
+          <h1 style={{ fontSize: '4.5rem', marginBottom: '1rem', textShadow: '0 0 15px #ec4899' }}>DJ Franzoni</h1>
           <Text style={{ fontSize: '1.25rem' }}>Energia, ritmo e vibração nos melhores eventos.</Text>
           <SubmitButton style={{ marginTop: '2rem' }}>Solicitar Orçamento</SubmitButton>
         </SectionContent>
@@ -42,13 +42,23 @@ export default function Home() {
         <SectionContent as={motion.div} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.8 }}>
           <Title>Sobre a DJ</Title>
           <Text>
-            DJ Electra é uma artista apaixonada pela música eletrônica, com uma presença marcante nas pistas. Sua vibe contagiante e sets criativos garantem noites inesquecíveis.
-          </Text>
-          <Text>
-            Já tocou em festas privadas, festivais, clubes renomados e eventos corporativos por todo o Brasil.
-          </Text>
-          <Text>
-            Influências: house, techno, disco e synthwave — uma mistura sofisticada que agrada todos os públicos.
+              Franzoni tem se destacado de forma impressionante na cena do funk, 
+              não apenas por suas músicas autorais, mas também pela habilidade única de montar
+              seus sets com uma curadoria refinada e inovadora.
+              Com uma pegada ousada e versátil, ela transita com
+              maestria por diversas vertentes do funk, criando uma
+              verdadeira montanha-russa sonora que transforma
+              cada apresentação em uma experiência única e
+              inesquecível para o público.
+              Seu talento e presença de palco a levaram a se
+              apresentar em grandes eventos como o Encontro Das
+              Tribos, Noite Paulista, Wild Trap Festival, entre outros,
+              consolidando seu nome entre os grandes da cena. Sua
+              capacidade de conectar o público e elevar a energia da
+              pista a torna uma das artistas mais requisitadas e
+              promissoras do cenário. Franzoni está mais do que
+              pronta para fazer parte do seu line-up e entregar uma
+              performance que vai deixar todos ansiosos por mais.
           </Text>
         </SectionContent>
       </Section>
