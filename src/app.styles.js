@@ -25,6 +25,27 @@ export const Background = styled.div`
   z-index: 0;
 `;
 
+export const FloatingButton = styled.a`
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background: #ec4899;
+  color: white;
+  padding: 1rem 1.5rem;
+  border-radius: 999px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  font-weight: bold;
+  text-decoration: none;
+  z-index: 1000;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+
+  &:hover {
+    background: #db2777;
+    transform: scale(1.05);
+  }
+`;
+
 export const SectionContent = styled.div`
   position: relative;
   z-index: 1;
