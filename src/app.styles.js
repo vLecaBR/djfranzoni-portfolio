@@ -1,5 +1,4 @@
-// src/styles.js
-import styled, { createGlobalStyle } from 'styled-components';
+import styled, { createGlobalStyle, keyframes } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
   body {
@@ -20,15 +19,23 @@ export const Section = styled.section`
 export const Background = styled.div`
   position: absolute;
   inset: 0;
-  background: url(${props => props.image}) no-repeat center center/cover;
+  background: url(${props => props.image}) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
   opacity: 0.2;
   z-index: 0;
+`;
+
+const pulse = keyframes`
+  0% { transform: scale(1); }
+  50% { transform: scale(1.08); }
+  100% { transform: scale(1); }
 `;
 
 export const FloatingButton = styled.a`
   position: fixed;
   bottom: 2rem;
-  right: 2rem;
+  right: 3rem;
   background: #ec4899;
   color: white;
   padding: 1rem 1.5rem;
@@ -39,6 +46,7 @@ export const FloatingButton = styled.a`
   z-index: 1000;
   transition: all 0.3s ease;
   font-size: 1rem;
+  animation: ${pulse} 2.5s infinite;
 
   &:hover {
     background: #db2777;
@@ -79,47 +87,9 @@ export const Image = styled.img`
 
 export const Video = styled.iframe`
   width: 100%;
-  height: 200px;
+  aspect-ratio: 16 / 9;
   border: none;
   border-radius: 12px;
-`;
-
-export const Form = styled.form`
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  margin-top: 2rem;
-`;
-
-export const Input = styled.input`
-  padding: 0.75rem;
-  border-radius: 8px;
-  border: none;
-  font-size: 1rem;
-`;
-
-export const Textarea = styled.textarea`
-  padding: 0.75rem;
-  border-radius: 8px;
-  border: none;
-  font-size: 1rem;
-  resize: vertical;
-`;
-
-export const SubmitButton = styled.button`
-  padding: 0.75rem;
-  background-color: #ec4899;
-  color: white;
-  font-size: 1.125rem;
-  border: none;
-  border-radius: 9999px;
-  cursor: pointer;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.5);
-  transition: background 0.3s ease;
-
-  &:hover {
-    background-color: #f472b6;
-  }
 `;
 
 export const Footer = styled.footer`
