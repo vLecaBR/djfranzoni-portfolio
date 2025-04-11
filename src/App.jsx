@@ -27,12 +27,12 @@ export default function Home() {
       <GlobalStyle />
 
       {/* Hero Section */}
-      <Section style={{ height: '100vh', paddingTop: '50vh' }}>
-        <Background image="/dj-photo.jpg" />
+      <Section style={{ height: '100vh', paddingTop: '40vh' }}>
+        <Background image="/dj-photo.jpg" style={{ filter: 'brightness(0.4)' }} />
         <SectionContent as={motion.div} initial={{ opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1 }}>
-          <h1 style={{ fontSize: '4.5rem', marginBottom: '1rem', textShadow: '0 0 15px #ec4899' }}>DJ Franzoni</h1>
-          <Text style={{ fontSize: '1.25rem' }}>Energia, ritmo e vibração nos melhores eventos.</Text>
-          <SubmitButton style={{ marginTop: '2rem' }}>Solicitar Orçamento</SubmitButton>
+          <h1 style={{ fontSize: '5rem', marginBottom: '1rem', textShadow: '0 0 25px #ec4899', letterSpacing: '2px' }}>DJ Franzoni</h1>
+          <Text style={{ fontSize: '1.5rem', fontWeight: 'lighter', color: '#fff' }}>Energia, ritmo e vibração nos melhores eventos.</Text>
+          <SubmitButton style={{ marginTop: '2.5rem' }}>Solicitar Orçamento</SubmitButton>
         </SectionContent>
       </Section>
 
@@ -41,7 +41,7 @@ export default function Home() {
         <Background image="/bg2.jpg" />
         <SectionContent as={motion.div} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.8 }}>
           <Title>Sobre a DJ</Title>
-          <Text>
+          <Text style={{ lineHeight: '2', fontSize: '1.1rem' }}>
               Franzoni tem se destacado de forma impressionante na cena do funk, 
               não apenas por suas músicas autorais, mas também pela habilidade única de montar
               seus sets com uma curadoria refinada e inovadora.
@@ -92,10 +92,10 @@ export default function Home() {
         <Background image="/bg5.jpg" />
         <SectionContent as={motion.div} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.8 }}>
           <Title>Depoimentos</Title>
-          <Text style={{ fontStyle: 'italic', fontWeight: 'lighter' }}>
+          <Text style={{ fontStyle: 'italic', fontWeight: 'lighter', background: 'rgba(0,0,0,0.5)', padding: '1rem', borderRadius: '8px' }}>
             “A DJ Electra fez nossa festa ser inesquecível. Todos dançaram até o último minuto!” – Marina C.
           </Text>
-          <Text style={{ fontStyle: 'italic', fontWeight: 'lighter' }}>
+          <Text style={{ fontStyle: 'italic', fontWeight: 'lighter', background: 'rgba(0,0,0,0.5)', padding: '1rem', borderRadius: '8px', marginTop: '1rem' }}>
             “Som de altíssima qualidade e muita presença de palco.” – Eventos Prime
           </Text>
         </SectionContent>
@@ -123,7 +123,7 @@ export default function Home() {
 
       {/* Rodapé */}
       <Footer>
-        © {new Date().getFullYear()} DJ Electra. Todos os direitos reservados. | <a href="#">Política de Privacidade</a>
+        © {new Date().getFullYear()} DJ Franzoni. Todos os direitos reservados. | <a href="#">Política de Privacidade</a>
       </Footer>
     </>
   );
