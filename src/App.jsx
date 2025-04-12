@@ -32,7 +32,11 @@ export default function Home() {
       <Section style={{ height: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
         <Background image="/dj-photo.jpg" />
         <SectionContent as={motion.div} initial={{ opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1 }}>
-          <h1 style={{ fontSize: '5rem', marginBottom: '1rem', textShadow: '0 0 25px #ec4899' }}>DJ Franzoni</h1>
+          <img
+            src="/dj-logo.png"
+            alt="DJ Franzoni"
+            style={{ height: '5rem', marginBottom: '1rem' }}
+          />
           <Text style={{ fontSize: '1.5rem' }}>Energia, ritmo e vibração nos melhores eventos.</Text>
         </SectionContent>
       </Section>
@@ -98,10 +102,10 @@ export default function Home() {
         <SectionContent as={motion.div} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.8 }}>
           <Title>Contato / Redes Sociais</Title>
           <Text style={{ marginTop: '2rem' }}>
-            Orçamentos: <br></br>
-            (16)99741-1851 (Duda)<br></br>
-            (16)99167-2353 (Mile)<br></br>
-            <br></br>
+            Orçamentos: <br />
+            (16)99741-1851 (Duda)<br />
+            (16)99167-2353 (Mile)<br />
+            <br />
             Siga nas redes sociais:
             <br />
             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a> |
