@@ -105,6 +105,7 @@ export const HeroSection = styled(Section)`
   display: flex;
   align-items: center;
   justify-content: center;
+  top: 10vh;
 `;
 
 export const LogoImage = styled.img`
