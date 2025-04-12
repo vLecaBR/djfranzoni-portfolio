@@ -33,7 +33,7 @@ export default function Home() {
         <Background image="/dj-photo.jpg" />
         <SectionContent as={motion.div} initial={{ opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1 }}>
           <img
-            src="/dj-logo.png"
+            src="/src/img/logo1.png"
             alt="DJ Franzoni"
             style={{ height: '5rem', marginBottom: '1rem' }}
           />
