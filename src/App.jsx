@@ -11,7 +11,12 @@ import {
   Image,
   Video,
   FloatingButton,
-  Footer
+  Footer,
+  HeroSection,
+  LogoImage,
+  HeroText,
+  TestimonialText,
+  ContactText
 } from './app.styles';
 
 export default function Home() {
@@ -23,20 +28,18 @@ export default function Home() {
     <>
       <GlobalStyle />
 
-      {/* Botão flutuante */}
       <FloatingButton onClick={() => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })}>
         Solicitar Orçamento
       </FloatingButton>
 
       {/* Hero Section */}
-      <Section style={{ height: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+      <HeroSection>
         <Background image="/dj-photo.jpg" />
         <SectionContent as={motion.div} initial={{ opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1 }}>
-        <img src="/img/logo1.png" alt="DJ Franzoni" style={{ height: '5rem', marginBottom: '1rem', marginTop: '5rem' }} />
-
-          <Text style={{ fontSize: '1.5rem' }}>A mais mais de rp city</Text>
+          <LogoImage src="/img/logo1.png" alt="DJ Franzoni" />
+          <HeroText>A mais mais de rp city</HeroText>
         </SectionContent>
-      </Section>
+      </HeroSection>
 
       {/* Sobre a DJ */}
       <Section>
@@ -65,7 +68,7 @@ export default function Home() {
             <Image src="/show1.jpg" alt="Show 1" />
             <Image src="/show2.jpg" alt="Show 2" />
             <Video src="https://www.youtube.com/embed/ScMzIvxBSi4" allowFullScreen title="YouTube Video" />
-            <Video src="https://www.youtube.com/embed/ScMzIvxBSi4" allowFullScreen title="xxx" />
+            <Video src="https://www.youtube.com/embed/ScMzIvxBSi4" allowFullScreen title="Outro Video" />
           </Grid>
         </SectionContent>
       </Section>
@@ -85,12 +88,12 @@ export default function Home() {
         <Background image="/bg5.jpg" />
         <SectionContent as={motion.div} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.8 }}>
           <Title>Depoimentos</Title>
-          <Text style={{ fontStyle: 'italic', fontWeight: 'lighter', background: 'rgba(0,0,0,0.5)', padding: '1rem', borderRadius: '12px' }}>
+          <TestimonialText first>
             “A DJ Electra fez nossa festa ser inesquecível. Todos dançaram até o último minuto!” – Marina C.
-          </Text>
-          <Text style={{ fontStyle: 'italic', fontWeight: 'lighter', background: 'rgba(0,0,0,0.5)', padding: '1rem', borderRadius: '12px', marginTop: '1rem' }}>
+          </TestimonialText>
+          <TestimonialText>
             “Som de altíssima qualidade e muita presença de palco.” – Eventos Prime
-          </Text>
+          </TestimonialText>
         </SectionContent>
       </Section>
 
@@ -98,7 +101,7 @@ export default function Home() {
       <Section>
         <SectionContent as={motion.div} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.8 }}>
           <Title>Contato / Redes Sociais</Title>
-          <Text style={{ marginTop: '2rem' }}>
+          <ContactText>
             Orçamentos: <br />
             (16)99741-1851 (Duda)<br />
             (16)99167-2353 (Mile)<br />
@@ -107,7 +110,7 @@ export default function Home() {
             <br />
             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a> |
             <a href="https://www.instagram.com/nofilter_creative" target="_blank" rel="noopener noreferrer"> SoundCloud</a>
-          </Text>
+          </ContactText>
         </SectionContent>
       </Section>
 

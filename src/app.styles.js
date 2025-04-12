@@ -36,7 +36,7 @@ export const FloatingButton = styled.a`
   position: fixed;
   bottom: 2rem;
   right: 3rem;
-  background: #ec4899;
+  background: #ED5AA5;
   color: white;
   padding: 1rem 1.5rem;
   border-radius: 999px;
@@ -98,4 +98,44 @@ export const Footer = styled.footer`
   background-color: #111;
   font-size: 0.875rem;
   color: #aaa;
+`;
+
+export const HeroSection = styled(Section)`
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
+export const LogoImage = styled.img`
+  height: 5rem;
+  margin-bottom: 1rem;
+  margin-top: 5rem;
+`;
+
+export const HeroText = styled(Text)`
+  font-size: 1.5rem;
+`;
+
+export const TestimonialText = styled(Text)`
+  font-style: italic;
+  font-weight: lighter;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  border-radius: 12px;
+  margin-top: ${props => props.first ? '0' : '1rem'};
+`;
+
+export const ContactText = styled(Text)`
+  margin-top: 2rem;
+
+  a {
+    color: #ED5AA5;
+    text-decoration: none;
+    margin: 0 0.25rem;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
 `;
