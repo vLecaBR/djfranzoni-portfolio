@@ -32,12 +32,9 @@ export default function Home() {
       <Section style={{ height: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
         <Background image="/dj-photo.jpg" />
         <SectionContent as={motion.div} initial={{ opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1 }}>
-          <img
-            src="/src/img/logo1.png"
-            alt="DJ Franzoni"
-            style={{ height: '5rem', marginBottom: '1rem' }}
-          />
-          <Text style={{ fontSize: '1.5rem' }}>Energia, ritmo e vibração nos melhores eventos.</Text>
+        <img src="/img/logo1.png" alt="DJ Franzoni" style={{ height: '5rem', marginBottom: '1rem', marginTop: '5rem' }} />
+
+          <Text style={{ fontSize: '1.5rem' }}>A mais mais de rp city</Text>
         </SectionContent>
       </Section>
 
@@ -68,7 +65,7 @@ export default function Home() {
             <Image src="/show1.jpg" alt="Show 1" />
             <Image src="/show2.jpg" alt="Show 2" />
             <Video src="https://www.youtube.com/embed/ScMzIvxBSi4" allowFullScreen title="YouTube Video" />
-            <Video src="https://player.vimeo.com/video/76979871" allowFullScreen title="Vimeo Video" />
+            <Video src="https://www.youtube.com/embed/ScMzIvxBSi4" allowFullScreen title="xxx" />
           </Grid>
         </SectionContent>
       </Section>
