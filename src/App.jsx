@@ -116,7 +116,7 @@ export default function Home() {
 
       {/* Rodapé */}
       <Footer>
-        © {new Date().getFullYear()} DJ Electra. Todos os direitos reservados. | <a href="#">Política de Privacidade</a>
+        © {new Date().getFullYear()} No Filter Creative. Todos os direitos reservados. {/*| <a href="#">Política de Privacidade</a>*/}
       </Footer>
     </>
   );
