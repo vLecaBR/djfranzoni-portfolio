@@ -108,8 +108,8 @@ export default function Home() {
             <br />
             Siga nas redes sociais:
             <br />
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a> |
-            <a href="https://www.instagram.com/nofilter_creative" target="_blank" rel="noopener noreferrer"> SoundCloud</a>
+            <a href="https://www.instagram.com/franzoni.dj/" target="_blank" rel="noopener noreferrer">Instagram</a> |
+            <a href="https://www.instagram.com/nofilter_creative" target="_blank" rel="noopener noreferrer"> </a>
           </ContactText>
         </SectionContent>
       </Section>
