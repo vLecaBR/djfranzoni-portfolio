@@ -79,7 +79,6 @@ export default function Home() {
         <SectionContent as={motion.div} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.8 }}>
           <Title>Serviços</Title>
           <Text>Disponível para: festas, aniversários, casamentos, eventos corporativos, festivais e clubes.</Text>
-          <Text>Equipamentos profissionais de som e iluminação sob demanda.</Text>
         </SectionContent>
       </Section>
 
