@@ -78,7 +78,7 @@ export default function Home() {
         <Background image="/bg4.jpg" />
         <SectionContent as={motion.div} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.8 }}>
           <Title>Serviços</Title>
-          <Text>Disponível para: festas, casamentos, eventos corporativos, festivais e clubes.</Text>
+          <Text>Disponível para: festas, aniversários, casamentos, eventos corporativos, festivais e clubes.</Text>
           <Text>Equipamentos profissionais de som e iluminação sob demanda.</Text>
         </SectionContent>
       </Section>
