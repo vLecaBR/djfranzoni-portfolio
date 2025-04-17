@@ -118,15 +118,6 @@ export const HeroText = styled(Text)`
   font-size: 1.5rem;
 `;
 
-export const TestimonialText = styled(Text)`
-  font-style: italic;
-  font-weight: lighter;
-  background: rgba(0, 0, 0, 0.5);
-  padding: 1rem;
-  border-radius: 12px;
-  margin-top: ${props => props.first ? '0' : '1rem'};
-`;
-
 export const ContactText = styled(Text)`
   margin-top: 2rem;
 
