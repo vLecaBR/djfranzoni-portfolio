@@ -15,7 +15,6 @@ import {
   HeroSection,
   LogoImage,
   HeroText,
-  TestimonialText,
   ContactText
 } from './app.styles';
 
@@ -82,6 +81,22 @@ export default function Home() {
         </SectionContent>
       </Section>
 
+      {/* Próximos Eventos */}
+      <Section>
+        <Background image="/bg5.jpg" />
+        <SectionContent as={motion.div} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.8 }}>
+          <Title>Próximos Eventos</Title>
+          <Text>
+            Confira onde a DJ Franzoni vai se apresentar nos próximos dias:
+          </Text>
+          <ul style={{ listStyle: 'none', padding: 0, marginTop: '1.5rem' }}>
+            <li><strong>20/04</strong> - Wild Trap Festival, São Paulo</li>
+            <li><strong>27/04</strong> - Baile da Tribo, Campinas</li>
+            <li><strong>04/05</strong> - Noite Funkada, Ribeirão Preto</li>
+            <li><strong>11/05</strong> - Evento Privado, Franca</li>
+          </ul>
+        </SectionContent>
+      </Section>
 
       {/* Contato */}
       <Section>
@@ -102,7 +117,7 @@ export default function Home() {
 
       {/* Rodapé */}
       <Footer>
-        © {new Date().getFullYear()} No Filter Creative. Todos os direitos reservados. {/*| <a href="#">Política de Privacidade</a>*/}
+        © {new Date().getFullYear()} No Filter Creative. Todos os direitos reservados.
       </Footer>
     </>
   );
