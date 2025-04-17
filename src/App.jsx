@@ -15,7 +15,11 @@ import {
   HeroSection,
   LogoImage,
   HeroText,
-  ContactText
+  ContactText,
+  EventsList,
+  EventCard,
+  EventDate,
+  EventDetails
 } from './app.styles';
 
 export default function Home() {
@@ -86,15 +90,36 @@ export default function Home() {
         <Background image="/bg5.jpg" />
         <SectionContent as={motion.div} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.8 }}>
           <Title>Próximos Eventos</Title>
-          <Text>
-            Confira onde a DJ Franzoni vai se apresentar nos próximos dias:
-          </Text>
-          <ul style={{ listStyle: 'none', padding: 0, marginTop: '1.5rem' }}>
-            <li><strong>20/04</strong> - Wild Trap Festival, São Paulo</li>
-            <li><strong>27/04</strong> - Baile da Tribo, Campinas</li>
-            <li><strong>04/05</strong> - Noite Funkada, Ribeirão Preto</li>
-            <li><strong>11/05</strong> - Evento Privado, Franca</li>
-          </ul>
+          <EventsList>
+            <EventCard>
+              <EventDate>20/04</EventDate>
+              <EventDetails>
+                <strong>Wild Trap Festival</strong><br />
+                São Paulo - SP
+              </EventDetails>
+            </EventCard>
+            <EventCard>
+              <EventDate>27/04</EventDate>
+              <EventDetails>
+                <strong>Baile da Tribo</strong><br />
+                Campinas - SP
+              </EventDetails>
+            </EventCard>
+            <EventCard>
+              <EventDate>04/05</EventDate>
+              <EventDetails>
+                <strong>Noite Funkada</strong><br />
+                Ribeirão Preto - SP
+              </EventDetails>
+            </EventCard>
+            <EventCard>
+              <EventDate>11/05</EventDate>
+              <EventDetails>
+                <strong>Evento Privado</strong><br />
+                Franca - SP
+              </EventDetails>
+            </EventCard>
+          </EventsList>
         </SectionContent>
       </Section>
 
