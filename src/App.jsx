@@ -82,19 +82,6 @@ export default function Home() {
         </SectionContent>
       </Section>
 
-      {/* Depoimentos */}
-      <Section>
-        <Background image="/bg5.jpg" />
-        <SectionContent as={motion.div} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.8 }}>
-          <Title>Depoimentos</Title>
-          <TestimonialText first>
-            “A DJ Electra fez nossa festa ser inesquecível. Todos dançaram até o último minuto!” – Marina C.
-          </TestimonialText>
-          <TestimonialText>
-            “Som de altíssima qualidade e muita presença de palco.” – Eventos Prime
-          </TestimonialText>
-        </SectionContent>
-      </Section>
 
       {/* Contato */}
       <Section>
