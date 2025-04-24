@@ -30,6 +30,7 @@ import {
   ServicesSection,
   NextEventsSection
 } from './app.styles';
+import { Analytics } from "@vercel/analytics/react"
 
 export default function Home() {
   useEffect(() => {
@@ -39,6 +40,7 @@ export default function Home() {
   return (
     <>
       <GlobalStyle />
+      <Analytics />
 
       <FloatingButton onClick={() => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })}>
         Solicitar Orçamento
