@@ -45,10 +45,6 @@ export const GalerySection = styled.section`
   height: auto;
 `;
 
-export const ServicesSection = styled.section`
-  ${responsiveSection}
-`;
-
 export const NextEventsSection = styled.section`
   ${responsiveSection}
 `;
@@ -87,12 +83,6 @@ export const BackgroundGallery = styled.div`
   ${backgroundStyle}
   background-image: url(${props => props.$image});
   opacity: 0.25;
-`;
-
-export const BackgroundServices = styled.div`
-  ${backgroundStyle}
-  background-image: url(${props => props.$image});
-  opacity: 0.15;
 `;
 
 export const BackgroundEvents = styled.div`
