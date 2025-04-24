@@ -1,7 +1,5 @@
 import styled, { createGlobalStyle, keyframes } from 'styled-components';
 
-
-
 export const GlobalStyle = createGlobalStyle`
   * {
     margin: 0;
@@ -23,110 +21,90 @@ export const GlobalStyle = createGlobalStyle`
   }
 `;
 
-
-export const Section = styled.section`
+const responsiveSection = `
   position: relative;
   padding: 5rem 1rem;
   text-align: center;
+
+  @media (max-width: 768px) {
+    padding: 3rem 1rem;
+  }
+`;
+
+export const Section = styled.section`
+  ${responsiveSection}
 `;
 
 export const AboutSection = styled.section`
-  position: relative;
-  padding: 5rem 1rem;
-  text-align: center;
-  height: 70vh;
+  ${responsiveSection}
+  height: auto;
 `;
 
 export const GalerySection = styled.section`
-  position: relative;
-  padding: 5rem 1rem;
-  text-align: center;
-  height: 100vh;
+  ${responsiveSection}
+  height: auto;
 `;
 
 export const ServicesSection = styled.section`
-  position: relative;
-  padding: 5rem 1rem;
-  text-align: center;
+  ${responsiveSection}
 `;
 
 export const NextEventsSection = styled.section`
-  position: relative;
-  padding: 5rem 1rem;
-  text-align: center;
+  ${responsiveSection}
 `;
 
 export const ContactSection = styled.section`
-  position: relative;
-  padding: 5rem 1rem;
-  text-align: center;
+  ${responsiveSection}
 `;
 
-// Background para Hero Section
+const backgroundStyle = `
+  position: absolute;
+  inset: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 0;
+
+  @media (max-width: 768px) {
+    background-attachment: scroll;
+  }
+`;
+
 export const BackgroundHeroSec = styled.div`
-  position: absolute;
-  inset: 0;
-  background: url(${props => props.$image}) no-repeat center center;
-  background-size: cover;
-  background-attachment: fixed;
+  ${backgroundStyle}
+  background-image: url(${props => props.$image});
   opacity: 0.2;
-  z-index: 0;
 `;
 
-
-// Background para a seção Sobre a DJ
 export const BackgroundAbout = styled.div`
-  position: absolute;
-  inset: 0;
-  background: url(${props => props.$image}) no-repeat center center;
-  background-size: cover;
-  background-attachment: fixed;
+  ${backgroundStyle}
+  background-image: url(${props => props.$image});
   opacity: 0.3;
-  z-index: 0;
 `;
 
-// Background para a Galeria
 export const BackgroundGallery = styled.div`
-  position: absolute;
-  inset: 0;
-  background: url(${props => props.$image}) no-repeat center center;
-  background-size: cover;
-  background-attachment: fixed;
+  ${backgroundStyle}
+  background-image: url(${props => props.$image});
   opacity: 0.25;
-  z-index: 0;
 `;
 
-// Background para a seção de Serviços
 export const BackgroundServices = styled.div`
-  position: absolute;
-  inset: 0;
-  background: url(${props => props.$image}) no-repeat center center;
-  background-size: cover;
-  background-attachment: fixed;
+  ${backgroundStyle}
+  background-image: url(${props => props.$image});
   opacity: 0.15;
-  z-index: 0;
 `;
 
-// Background para os Eventos
 export const BackgroundEvents = styled.div`
-  position: absolute;
-  inset: 0;
-  background: url(${props => props.$image}) no-repeat center center;
-  background-size: cover;
-  background-attachment: fixed;
+  ${backgroundStyle}
+  background-image: url(${props => props.$image});
   opacity: 0.2;
-  z-index: 0;
 `;
 
-// Background para a seção de Contato
 export const BackgroundContact = styled.div`
-  position: absolute;
-  inset: 0;
-  background: url(${props => props.$image}) no-repeat center center;
-  background-size: cover;
-  background-attachment: fixed;
+  ${backgroundStyle}
+  background-image: url(${props => props.$image});
   opacity: 0.3;
-  z-index: 0;
 `;
 
 const pulse = keyframes`
@@ -155,6 +133,12 @@ export const FloatingButton = styled.a`
     background: #db2777;
     transform: scale(1.05);
   }
+
+  @media (max-width: 600px) {
+    right: 1rem;
+    padding: 0.75rem 1rem;
+    font-size: 0.875rem;
+  }
 `;
 
 export const SectionContent = styled.div`
@@ -162,17 +146,27 @@ export const SectionContent = styled.div`
   z-index: 1;
   max-width: 800px;
   margin: 0 auto;
+  padding: 0 1rem;
 `;
 
 export const Title = styled.h2`
   font-size: 2.5rem;
   margin-bottom: 1rem;
+
+  @media (max-width: 600px) {
+    font-size: 2rem;
+  }
 `;
 
 export const Text = styled.p`
   font-size: 1.125rem;
   line-height: 1.75rem;
   color: #ddd;
+
+  @media (max-width: 600px) {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
 `;
 
 export const Grid = styled.div`
@@ -208,16 +202,30 @@ export const HeroSection = styled(Section)`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media (max-width: 768px) {
+    height: auto;
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+  }
 `;
 
 export const LogoImage = styled.img`
   height: 5rem;
   margin-bottom: 1rem;
   margin-top: 5rem;
+
+  @media (max-width: 600px) {
+    height: 3.5rem;
+    margin-top: 3rem;
+  }
 `;
 
 export const HeroText = styled(Text)`
   font-size: 1.5rem;
+  @media (max-width: 600px) {
+    font-size: 1.25rem;
+  }
 `;
 
 export const ContactText = styled(Text)`
@@ -278,4 +286,3 @@ export const EventDetails = styled.div`
     margin-top: 0.5rem;
   }
 `;
-
