@@ -16,7 +16,54 @@ export const Section = styled.section`
   text-align: center;
 `;
 
-export const Background = styled.div`
+// Background para Hero Section
+export const BackgroundHeroSec = styled.div`
+  position: absolute;
+  inset: 0;
+  background: url(${props => props.$image}) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.2;
+  z-index: 0;
+  border: 2px solid red;
+`;
+
+
+// Background para a seção Sobre a DJ
+export const BackgroundAbout = styled.div`
+  position: absolute;
+  inset: 0;
+  background: url(${props => props.image}) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.3;
+  z-index: 0;
+`;
+
+// Background para a Galeria
+export const BackgroundGallery = styled.div`
+  position: absolute;
+  inset: 0;
+  background: url(${props => props.image}) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.25;
+  z-index: 0;
+`;
+
+// Background para a seção de Serviços
+export const BackgroundServices = styled.div`
+  position: absolute;
+  inset: 0;
+  background: url(${props => props.image}) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.15;
+  z-index: 0;
+`;
+
+// Background para os Eventos
+export const BackgroundEvents = styled.div`
   position: absolute;
   inset: 0;
   background: url(${props => props.image}) no-repeat center center;
@@ -24,7 +71,17 @@ export const Background = styled.div`
   background-attachment: fixed;
   opacity: 0.2;
   z-index: 0;
-  border: 2px solid red;
+`;
+
+// Background para a seção de Contato
+export const BackgroundContact = styled.div`
+  position: absolute;
+  inset: 0;
+  background: url(${props => props.image}) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.3;
+  z-index: 0;
 `;
 
 const pulse = keyframes`
@@ -177,3 +234,4 @@ export const EventDetails = styled.div`
     margin-top: 0.5rem;
   }
 `;
+
