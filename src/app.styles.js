@@ -24,6 +24,7 @@ export const Background = styled.div`
   background-attachment: fixed;
   opacity: 0.2;
   z-index: 0;
+  border: 2px solid red;
 `;
 
 const pulse = keyframes`

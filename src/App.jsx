@@ -37,7 +37,7 @@ export default function Home() {
 
       {/* Hero Section */}
       <HeroSection>
-        <Background image="/dj-photo.jpg" />
+        <Background image="/img/background_1.jpg" />
         <SectionContent as={motion.div} initial={{ opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1 }}>
           <LogoImage src="/img/logo1.png" alt="DJ Franzoni" />
           <HeroText>A mais mais de rp city</HeroText>
@@ -46,7 +46,7 @@ export default function Home() {
 
       {/* Sobre a DJ */}
       <Section>
-        <Background image="/bg2.jpg" />
+        <Background image="/img/background_2.jpg" />
         <SectionContent as={motion.div} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.8 }}>
           <Title>Sobre a DJ</Title>
           <Text>
@@ -64,7 +64,7 @@ export default function Home() {
 
       {/* Galeria */}
       <Section>
-        <Background image="/bg3.jpg" />
+        <Background image="/img/background_3.jpg" />
         <SectionContent as={motion.div} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.8 }}>
           <Title>Galeria de Fotos e Vídeos</Title>
           <Grid>
