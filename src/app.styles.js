@@ -30,6 +30,36 @@ export const Section = styled.section`
   text-align: center;
 `;
 
+export const AboutSection = styled.section`
+  position: relative;
+  padding: 5rem 1rem;
+  text-align: center;
+`;
+
+export const GalerySection = styled.section`
+  position: relative;
+  padding: 5rem 1rem;
+  text-align: center;
+`;
+
+export const ServicesSection = styled.section`
+  position: relative;
+  padding: 5rem 1rem;
+  text-align: center;
+`;
+
+export const NextEventsSection = styled.section`
+  position: relative;
+  padding: 5rem 1rem;
+  text-align: center;
+`;
+
+export const ContactSection = styled.section`
+  position: relative;
+  padding: 5rem 1rem;
+  text-align: center;
+`;
+
 // Background para Hero Section
 export const BackgroundHeroSec = styled.div`
   position: absolute;

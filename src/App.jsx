@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import {
   GlobalStyle,
-  Section,
   BackgroundHeroSec,
   BackgroundAbout,
   BackgroundGallery,
@@ -24,7 +23,12 @@ import {
   EventsList,
   EventCard,
   EventDate,
-  EventDetails
+  EventDetails,
+  ContactSection,
+  AboutSection,
+  GalerySection,
+  ServicesSection,
+  NextEventsSection
 } from './app.styles';
 
 export default function Home() {
@@ -50,7 +54,7 @@ export default function Home() {
       </HeroSection>
 
       {/* Sobre a DJ */}
-      <Section>
+      <AboutSection>
         <BackgroundAbout $image="/img/background_2.jpeg" />
         <SectionContent as={motion.div} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.8 }}>
           <Title>Sobre a DJ</Title>
@@ -65,10 +69,10 @@ export default function Home() {
             entre outros, consolidando seu nome entre os grandes da cena.
           </Text>
         </SectionContent>
-      </Section>
+      </AboutSection>
 
       {/* Galeria */}
-      <Section>
+      <GalerySection>
         <BackgroundGallery $image="/img/background_3.jpeg" />
         <SectionContent as={motion.div} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.8 }}>
           <Title>Galeria de Fotos e Vídeos</Title>
@@ -79,19 +83,19 @@ export default function Home() {
             <Video src="https://www.youtube.com/embed/ScMzIvxBSi4" allowFullScreen title="Outro Video" />
           </Grid>
         </SectionContent>
-      </Section>
+      </GalerySection>
 
       {/* Serviços */}
-      <Section>
+      <ServicesSection>
         <BackgroundServices $image="/img/background_4.jpeg" />
         <SectionContent as={motion.div} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.8 }}>
           <Title>Serviços</Title>
           <Text>Disponível para: festas, aniversários, casamentos, eventos corporativos, festivais e clubes.</Text>
         </SectionContent>
-      </Section>
+      </ServicesSection>
 
       {/* Próximos Eventos */}
-      <Section>
+      <NextEventsSection>
         <BackgroundEvents $image="/img/background_5.jpeg" />
         <SectionContent as={motion.div} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.8 }}>
           <Title>Próximos Eventos</Title>
@@ -126,10 +130,10 @@ export default function Home() {
             </EventCard>
           </EventsList>
         </SectionContent>
-      </Section>
+      </NextEventsSection>
 
       {/* Contato */}
-      <Section>
+      <ContactSection>
         <BackgroundContact $image="/img/background_6.jpeg" />
         <SectionContent as={motion.div} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.8 }}>
           <Title>Contato / Redes Sociais</Title>
@@ -144,7 +148,7 @@ export default function Home() {
             <a href="https://www.instagram.com/nofilter_creative" target="_blank" rel="noopener noreferrer"> No Filter Creative</a>
           </ContactText>
         </SectionContent>
-      </Section>
+      </ContactSection>
 
       {/* Rodapé */}
       <Footer>
