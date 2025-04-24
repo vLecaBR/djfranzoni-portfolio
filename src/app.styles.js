@@ -34,6 +34,7 @@ export const AboutSection = styled.section`
   position: relative;
   padding: 5rem 1rem;
   text-align: center;
+  height: 70vh;
 `;
 
 export const GalerySection = styled.section`
