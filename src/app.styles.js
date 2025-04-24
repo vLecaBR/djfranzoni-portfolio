@@ -41,6 +41,7 @@ export const GalerySection = styled.section`
   position: relative;
   padding: 5rem 1rem;
   text-align: center;
+  height: 100vh;
 `;
 
 export const ServicesSection = styled.section`

@@ -85,15 +85,6 @@ export default function Home() {
         </SectionContent>
       </GalerySection>
 
-      {/* Serviços */}
-      <ServicesSection>
-        <BackgroundServices $image="/img/background_4.jpeg" />
-        <SectionContent as={motion.div} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.8 }}>
-          <Title>Serviços</Title>
-          <Text>Disponível para: festas, aniversários, casamentos, eventos corporativos, festivais e clubes.</Text>
-        </SectionContent>
-      </ServicesSection>
-
       {/* Próximos Eventos */}
       <NextEventsSection>
         <BackgroundEvents $image="/img/background_5.jpeg" />
@@ -101,31 +92,38 @@ export default function Home() {
           <Title>Próximos Eventos</Title>
           <EventsList>
             <EventCard>
-              <EventDate>20/04</EventDate>
+              <EventDate>10/04</EventDate>
               <EventDetails>
-                <strong>Wild Trap Festival</strong><br />
-                São Paulo - SP
-              </EventDetails>
-            </EventCard>
-            <EventCard>
-              <EventDate>27/04</EventDate>
-              <EventDetails>
-                <strong>Baile da Tribo</strong><br />
-                Campinas - SP
-              </EventDetails>
-            </EventCard>
-            <EventCard>
-              <EventDate>04/05</EventDate>
-              <EventDetails>
-                <strong>Noite Funkada</strong><br />
+                <strong>Approve</strong><br />
                 Ribeirão Preto - SP
               </EventDetails>
             </EventCard>
             <EventCard>
-              <EventDate>11/05</EventDate>
+              <EventDate>11/04</EventDate>
               <EventDetails>
-                <strong>Evento Privado</strong><br />
-                Franca - SP
+                <strong>Baile da ENF</strong><br />
+                Ribeirão Preto - SP
+              </EventDetails>
+            </EventCard>
+            <EventCard>
+              <EventDate>19/04</EventDate>
+              <EventDetails>
+                <strong>JUR</strong><br />
+                Assis - SP
+              </EventDetails>
+            </EventCard>
+            <EventCard>
+              <EventDate>25/04</EventDate>
+              <EventDetails>
+                <strong>ARQuibancada</strong><br />
+                Ribeirão Preto - SP
+              </EventDetails>
+            </EventCard>
+            <EventCard>
+              <EventDate>26/04</EventDate>
+              <EventDetails>
+                <strong>Kzonaberta</strong><br />
+                Uberaba - MG
               </EventDetails>
             </EventCard>
           </EventsList>
