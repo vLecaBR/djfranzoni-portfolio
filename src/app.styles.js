@@ -25,7 +25,6 @@ export const BackgroundHeroSec = styled.div`
   background-attachment: fixed;
   opacity: 0.2;
   z-index: 0;
-  border: 2px solid red;
 `;
 
 
@@ -33,18 +32,19 @@ export const BackgroundHeroSec = styled.div`
 export const BackgroundAbout = styled.div`
   position: absolute;
   inset: 0;
-  background: url(${props => props.image}) no-repeat center center;
+  background: url(${props => props.$image}) no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   opacity: 0.3;
   z-index: 0;
+  border: 2px solid red;
 `;
 
 // Background para a Galeria
 export const BackgroundGallery = styled.div`
   position: absolute;
   inset: 0;
-  background: url(${props => props.image}) no-repeat center center;
+  background: url(${props => props.$image}) no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   opacity: 0.25;
@@ -55,7 +55,7 @@ export const BackgroundGallery = styled.div`
 export const BackgroundServices = styled.div`
   position: absolute;
   inset: 0;
-  background: url(${props => props.image}) no-repeat center center;
+  background: url(${props => props.$image}) no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   opacity: 0.15;
@@ -66,7 +66,7 @@ export const BackgroundServices = styled.div`
 export const BackgroundEvents = styled.div`
   position: absolute;
   inset: 0;
-  background: url(${props => props.image}) no-repeat center center;
+  background: url(${props => props.$image}) no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   opacity: 0.2;
@@ -77,7 +77,7 @@ export const BackgroundEvents = styled.div`
 export const BackgroundContact = styled.div`
   position: absolute;
   inset: 0;
-  background: url(${props => props.image}) no-repeat center center;
+  background: url(${props => props.$image}) no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   opacity: 0.3;

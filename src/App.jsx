@@ -42,7 +42,7 @@ export default function Home() {
 
       {/* Hero Section */}
       <HeroSection>
-      <BackgroundHeroSec src="/img/background_1.jpeg" alt="Background 1" />
+      <BackgroundHeroSec $image="/img/background_1.jpeg" />
         <SectionContent as={motion.div} initial={{ opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1 }}>
           <LogoImage src="/img/logo1.png" alt="DJ Franzoni" />
           <HeroText>A mais mais de rp city</HeroText>
@@ -51,7 +51,7 @@ export default function Home() {
 
       {/* Sobre a DJ */}
       <Section>
-        <BackgroundAbout image="/img/background_2.jpg" />
+        <BackgroundAbout $image="/img/background_2.jpeg" />
         <SectionContent as={motion.div} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.8 }}>
           <Title>Sobre a DJ</Title>
           <Text>
@@ -69,7 +69,7 @@ export default function Home() {
 
       {/* Galeria */}
       <Section>
-        <BackgroundGallery image="/img/background_3.jpg" />
+        <BackgroundGallery $image="/img/background_3.jpeg" />
         <SectionContent as={motion.div} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.8 }}>
           <Title>Galeria de Fotos e Vídeos</Title>
           <Grid>
@@ -83,7 +83,7 @@ export default function Home() {
 
       {/* Serviços */}
       <Section>
-        <BackgroundServices image="/bg4.jpg" />
+        <BackgroundServices $image="/img/background_4.jpeg" />
         <SectionContent as={motion.div} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.8 }}>
           <Title>Serviços</Title>
           <Text>Disponível para: festas, aniversários, casamentos, eventos corporativos, festivais e clubes.</Text>
@@ -92,7 +92,7 @@ export default function Home() {
 
       {/* Próximos Eventos */}
       <Section>
-        <BackgroundEvents image="/bg5.jpg" />
+        <BackgroundEvents $image="/img/background_5.jpeg" />
         <SectionContent as={motion.div} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.8 }}>
           <Title>Próximos Eventos</Title>
           <EventsList>
@@ -130,7 +130,7 @@ export default function Home() {
 
       {/* Contato */}
       <Section>
-        <BackgroundContact image="/contact_bg.jpg" />
+        <BackgroundContact $image="/img/background_6.jpeg" />
         <SectionContent as={motion.div} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.8 }}>
           <Title>Contato / Redes Sociais</Title>
           <ContactText>
