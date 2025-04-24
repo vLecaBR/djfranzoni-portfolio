@@ -5,7 +5,6 @@ import {
   BackgroundHeroSec,
   BackgroundAbout,
   BackgroundGallery,
-  BackgroundServices,
   BackgroundEvents,
   BackgroundContact,
   SectionContent,
@@ -27,7 +26,6 @@ import {
   ContactSection,
   AboutSection,
   GalerySection,
-  ServicesSection,
   NextEventsSection
 } from './app.styles';
 
