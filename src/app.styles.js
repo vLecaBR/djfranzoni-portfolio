@@ -1,14 +1,28 @@
 import styled, { createGlobalStyle, keyframes } from 'styled-components';
 
+
+
 export const GlobalStyle = createGlobalStyle`
-  body {
+  * {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  body {
     font-family: 'Arial', sans-serif;
     background-color: #000;
     color: #fff;
     scroll-behavior: smooth;
   }
 `;
+
 
 export const Section = styled.section`
   position: relative;
@@ -37,7 +51,6 @@ export const BackgroundAbout = styled.div`
   background-attachment: fixed;
   opacity: 0.3;
   z-index: 0;
-  border: 2px solid red;
 `;
 
 // Background para a Galeria
@@ -163,7 +176,6 @@ export const HeroSection = styled(Section)`
   display: flex;
   align-items: center;
   justify-content: center;
-  top: 10vh;
 `;
 
 export const LogoImage = styled.img`
