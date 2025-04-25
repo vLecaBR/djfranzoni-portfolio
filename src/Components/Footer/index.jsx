@@ -7,7 +7,7 @@ export default function Footer() {
     <FooterWrapper>
       <FooterColumn>
         <FooterText>
-          © {new Date().getFullYear()} No Filter Creative. Todos os direitos reservados.
+          © {new Date().getFullYear()} Desenvolvido por Victor Leça | No Filter Creative. Todos os direitos reservados.
         </FooterText>
       </FooterColumn>
 
