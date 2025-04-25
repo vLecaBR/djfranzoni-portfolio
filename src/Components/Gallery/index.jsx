@@ -32,7 +32,7 @@ export default function Gallery() {
           <Video
             src="https://www.youtube.com/embed/CJ_gBLI1V7c"
             allowFullScreen
-            title="Outro Video"
+            title="YouTube Video2"
           />
         </Grid>
       </SectionContent>
