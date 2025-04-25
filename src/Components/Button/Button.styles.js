@@ -29,8 +29,6 @@ export const FloatingButtonWrapper = styled.a`
   }
 
   @media (max-width: 600px) {
-    right: 1rem;
-    padding: 0.75rem 1rem;
-    font-size: 0.875rem;
+   display: none;
   }
 `;
