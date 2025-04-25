@@ -1,6 +1,6 @@
 import React from 'react';
 import { FooterWrapper, FooterColumn, FooterText, SocialLinks } from './Footer.styles';
-import { FaInstagram, FaSoundcloud, FaYoutube } from 'react-icons/fa';
+import { FaInstagram } from 'react-icons/fa';
 
 export default function Footer() {
   return (
@@ -13,14 +13,8 @@ export default function Footer() {
 
       <FooterColumn>
         <SocialLinks>
-          <a href="https://www.instagram.com/franzoni.dj/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/nofilter_creative/#" target="_blank" rel="noopener noreferrer">
             <FaInstagram />
-          </a>
-          <a href="https://soundcloud.com/sofia-franzoni-463224090" target="_blank" rel="noopener noreferrer">
-            <FaSoundcloud />
-          </a>
-          <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
-            <FaYoutube />
           </a>
         </SocialLinks>
       </FooterColumn>

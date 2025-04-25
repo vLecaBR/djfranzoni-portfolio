@@ -33,7 +33,7 @@ export default function Contact() {
                     <a href="https://soundcloud.com/sofia-franzoni-463224090" target="_blank" rel="noopener noreferrer">
                       <FaSoundcloud />
                     </a>
-                    <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.youtube.com/@DJfranzoni" target="_blank" rel="noopener noreferrer">
                       <FaYoutube />
                     </a>
                   </SocialLinks>
