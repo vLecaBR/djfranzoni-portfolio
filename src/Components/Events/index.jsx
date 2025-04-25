@@ -12,15 +12,21 @@ import {
   PassedEventDetails
 } from './Events.styles';
 
+// Função para converter string "dd/mm" em objeto Date
 const parseDate = (dateStr) => {
   const [day, month] = dateStr.split('/');
   const year = new Date().getFullYear();
-  return new Date(`${year}-${month}-${day}`);
+  return new Date(year, month - 1, day); // cria Date com hora 00:00
+};
+
+// Verifica se a data já passou (compara só a parte de dia, mês e ano)
+const isPastEvent = (eventDate) => {
+  const today = new Date();
+  const todayDateOnly = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+  return eventDate < todayDateOnly;
 };
 
 export default function Events() {
-  const today = new Date();
-
   const events = [
     { date: "10/04", name: "Approve", local: "Ribeirão Preto - SP" },
     { date: "11/04", name: "Baile da ENF", local: "Ribeirão Preto - SP" },
@@ -42,7 +48,7 @@ export default function Events() {
         <EventsList>
           {events.map((event, idx) => {
             const eventDate = parseDate(event.date);
-            const isPast = eventDate < today;
+            const isPast = isPastEvent(eventDate);
             const DetailsComponent = isPast ? PassedEventDetails : EventDetails;
 
             return (
