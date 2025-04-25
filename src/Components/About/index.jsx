@@ -20,9 +20,9 @@ export default function About() {
       >
         <Title>Sobre a DJ</Title>
         <Text>
-          Franzoni tem se destacado de forma impressionante na cena do funk,
-          não apenas por suas músicas autorais, mas também pela habilidade única de montar
-          seus sets com uma curadoria refinada e inovadora...
+        Franzoni vem se destacando de forma marcante na cena do funk, conquistando 
+        espaço com suas produções autorais e sua habilidade única de criar sets envolventes. <br></br> 
+        Sua curadoria musical combina originalidade e sofisticação, resultando em apresentações que surpreendem e contagiam o público.
         </Text>
       </SectionContent>
     </AboutSection>
