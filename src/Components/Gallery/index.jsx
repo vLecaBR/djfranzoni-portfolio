@@ -24,8 +24,16 @@ export default function Gallery() {
         <Grid>
           <Image src="/img/show1.JPG" alt="Show 1" />
           <Image src="/img/show2.jpeg" alt="Show 2" />
-          <Video src="https://www.youtube.com/embed/ScMzIvxBSi4" allowFullScreen title="YouTube Video" />
-          <Video src="https://www.youtube.com/embed/ScMzIvxBSi4" allowFullScreen title="Outro Video" />
+          <Video
+            src="https://www.youtube.com/embed/5i9zoi5NCwY"
+            allowFullScreen
+            title="YouTube Video"
+          />
+          <Video
+            src="https://www.youtube.com/embed/CJ_gBLI1V7c"
+            allowFullScreen
+            title="Outro Video"
+          />
         </Grid>
       </SectionContent>
     </GalerySection>
