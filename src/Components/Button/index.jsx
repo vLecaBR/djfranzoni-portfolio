@@ -1,7 +1,7 @@
 import React from 'react';
-import { FloatingButtonWrapper } from './floating-button.styles';
+import { FloatingButtonWrapper } from './Button.styles';
 
-export default function FloatingButton() {
+export default function Button() {
   const handleClick = () => {
     window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
   };
