@@ -19,7 +19,7 @@ export default function Hero() {
         transition={{ duration: 1 }}
       >
         <LogoImage src="/img/logo1.png" alt="DJ Franzoni" />
-        <HeroText>A mais mais de rp city</HeroText>
+        <HeroText>Eai Franzoni, solta aquela porra!</HeroText>
       </SectionContent>
     </HeroSection>
   );
