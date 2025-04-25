@@ -67,5 +67,10 @@ export const EventDetails = styled.div`
     margin-top: 0.5rem;
   }
 `;
+export const PassedEventDetails = styled(EventDetails)`
+  text-decoration: line-through;
+  opacity: 0.6;
+`;
+
 
 export { SectionContent, Title };
