@@ -25,6 +25,7 @@ export default function Contact() {
           (16)99167-2353 <a href= "https://wa.me/5516991672353" target="_blank" rel="noopener noreferrer">(Mile)</a> <br /><br />
           Siga nas redes sociais:<br />
           <a href="https://www.instagram.com/franzoni.dj/" target="_blank" rel="noopener noreferrer"> Instagram </a> |
+          <a href="https://on.soundcloud.com/7Qybm4VbEa1SpfMSA" target="_blank" rel="noopener noreferrer"> SoundCloud </a> |
           <a href="https://www.instagram.com/nofilter_creative" target="_blank" rel="noopener noreferrer"> No Filter Creative</a>
         </ContactText>
       </SectionContent>
