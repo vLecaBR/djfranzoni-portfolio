@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const FooterWrapper = styled.footer`
   background-color: #111;
   color: #ccc;
-  padding: 3rem 1rem;
+  padding: 1rem 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
