@@ -21,6 +21,34 @@ export const GlobalStyle = createGlobalStyle`
   }
 `;
 
+export const Text = styled.p`
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  color: #ddd;
+
+  @media (max-width: 600px) {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+`;
+
+export const Title = styled.h2`
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+
+  @media (max-width: 600px) {
+    font-size: 2rem;
+  }
+`;
+
+export const SectionContent = styled.div`
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem;
+`;
+
 const responsiveSection = `
   position: relative;
   padding: 5rem 1rem;
@@ -51,6 +79,12 @@ export const NextEventsSection = styled.section`
 
 export const ContactSection = styled.section`
   ${responsiveSection}
+`;
+
+const pulse = keyframes`
+  0% { transform: scale(1); }
+  50% { transform: scale(1.08); }
+  100% { transform: scale(1); }
 `;
 
 const backgroundStyle = `
@@ -97,11 +131,6 @@ export const BackgroundContact = styled.div`
   opacity: 0.3;
 `;
 
-const pulse = keyframes`
-  0% { transform: scale(1); }
-  50% { transform: scale(1.08); }
-  100% { transform: scale(1); }
-`;
 
 export const FloatingButton = styled.a`
   position: fixed;
@@ -131,33 +160,11 @@ export const FloatingButton = styled.a`
   }
 `;
 
-export const SectionContent = styled.div`
-  position: relative;
-  z-index: 1;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 0 1rem;
-`;
 
-export const Title = styled.h2`
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
 
-  @media (max-width: 600px) {
-    font-size: 2rem;
-  }
-`;
 
-export const Text = styled.p`
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-  color: #ddd;
 
-  @media (max-width: 600px) {
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
-`;
+
 
 export const Grid = styled.div`
   display: grid;
