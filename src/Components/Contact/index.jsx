@@ -1,11 +1,13 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { FaInstagram, FaSoundcloud, FaYoutube } from 'react-icons/fa';
 import {
   ContactSection,
   BackgroundContact,
   SectionContent,
   Title,
-  ContactText
+  ContactText,
+  SocialLinks,
 } from './Contact.styles';
 
 export default function Contact() {
@@ -24,9 +26,17 @@ export default function Contact() {
           (16)99741-1851 <a href= "https://wa.me/5516997411851" target="_blank" rel="noopener noreferrer">(Duda)</a> <br />
           (16)99167-2353 <a href= "https://wa.me/5516991672353" target="_blank" rel="noopener noreferrer">(Mile)</a> <br /><br />
           Siga nas redes sociais:<br />
-          <a href="https://www.instagram.com/franzoni.dj/" target="_blank" rel="noopener noreferrer"> Instagram </a> |
-          <a href="https://on.soundcloud.com/7Qybm4VbEa1SpfMSA" target="_blank" rel="noopener noreferrer"> SoundCloud </a> |
-          <a href="https://www.instagram.com/nofilter_creative" target="_blank" rel="noopener noreferrer"> No Filter Creative</a>
+                  <SocialLinks>
+                    <a href="https://www.instagram.com/franzoni.dj/" target="_blank" rel="noopener noreferrer">
+                      <FaInstagram />
+                    </a>
+                    <a href="https://soundcloud.com/sofia-franzoni-463224090" target="_blank" rel="noopener noreferrer">
+                      <FaSoundcloud />
+                    </a>
+                    <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+                      <FaYoutube />
+                    </a>
+                  </SocialLinks>
         </ContactText>
       </SectionContent>
     </ContactSection>

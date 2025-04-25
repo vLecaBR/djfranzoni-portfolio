@@ -37,4 +37,21 @@ export const ContactText = styled(Text)`
   }
 `;
 
+export const SocialLinks = styled.div`
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+
+  a {
+    color: #ED5AA5;
+    font-size: 1.25rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+`;
+
 export { SectionContent, Title };
