@@ -7,6 +7,7 @@ import Contact from './Components/Contact';
 import FloatingButton from './Components/Button';
 import { GlobalStyle } from './app.styles';
 import { Analytics } from "@vercel/analytics/react"
+import Footer from './Components/Footer';
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Gallery />
       <Events />
       <Contact />
+      <Footer />
     </>
   );
 }
