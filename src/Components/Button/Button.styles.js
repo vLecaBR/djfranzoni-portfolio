@@ -7,7 +7,7 @@ const pulse = keyframes`
 `;
 
 export const FloatingButtonWrapper = styled.a`
-  position: fixed;
+  position: absolute;
   bottom: 2rem;
   right: 3rem;
   background: #ED5AA5;
