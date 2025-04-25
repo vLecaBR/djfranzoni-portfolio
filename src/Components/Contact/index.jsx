@@ -21,8 +21,8 @@ export default function Contact() {
         <Title>Contato / Redes Sociais</Title>
         <ContactText>
           Orçamentos: <br />
-          (16)99741-1851 <a href= "wa.me/message/TVVQBSUNBZPKA1" target="_blank" rel="noopener noreferrer">(Duda)</a><br />
-          (16)99167-2353 (Mile)<br /><br />
+          (16)99741-1851 <a href= "https://wa.me/5516997411851" target="_blank" rel="noopener noreferrer">(Duda)</a> <br />
+          (16)99167-2353 <a href= "https://wa.me/5516991672353" target="_blank" rel="noopener noreferrer">(Mile)</a> <br /><br />
           Siga nas redes sociais:<br />
           <a href="https://www.instagram.com/franzoni.dj/" target="_blank" rel="noopener noreferrer"> Instagram </a> |
           <a href="https://www.instagram.com/nofilter_creative" target="_blank" rel="noopener noreferrer"> No Filter Creative</a>
