@@ -19,14 +19,8 @@ Este é o portfólio oficial da DJ Franzoni, desenvolvido para apresentar sua tr
 - [Styled-Components](https://styled-components.com/)
 - [Vercel](https://vercel.com/) para deploy
 
-## 🖼️ Prévia do Projeto
 
-Abaixo, algumas capturas de tela do site em funcionamento:
+# 📄 Licença
+Este projeto é de uso pessoal/artístico e não possui uma licença específica de código aberto. Para uso ou adaptações, entre em contato com os responsáveis.
 
-### 💻 Desktop
-
-![Página inicial desktop](https://github.com/vLecaBR/djfranzoni-portfolio/blob/main/public/img/PCVIEW.png)
-
-### 📱 Mobile
-
-![Página inicial mobile](https://github.com/vLecaBR/djfranzoni-portfolio/blob/main/public/img/MOBILEVIEW.png)
+# 💻Desenvolvido por @vLecaBR
