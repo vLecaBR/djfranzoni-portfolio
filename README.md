@@ -25,8 +25,8 @@ Abaixo, algumas capturas de tela do site em funcionamento:
 
 ### 💻 Desktop
 
-![Página inicial desktop](img/PCVIEW)
+![Página inicial desktop](img/PCVIEW.png)
 
 ### 📱 Mobile
 
-![Página inicial mobile](img/MOBILEVIEW)
+![Página inicial mobile](img/MOBILEVIEW.png)
