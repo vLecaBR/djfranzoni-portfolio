@@ -25,8 +25,8 @@ Abaixo, algumas capturas de tela do site em funcionamento:
 
 ### 💻 Desktop
 
-![Página inicial desktop](img/PCVIEW.png)
+![Página inicial desktop](https://github.com/vLecaBR/djfranzoni-portfolio/blob/main/public/img/PCVIEW.png)
 
 ### 📱 Mobile
 
-![Página inicial mobile](img/MOBILEVIEW.png)
+![Página inicial mobile](https://github.com/vLecaBR/djfranzoni-portfolio/blob/main/public/img/MOBILEVIEW.png)
