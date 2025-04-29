@@ -1,6 +1,6 @@
 # 🎧 DJ Franzoni - Portfólio
 
-Este é o portfólio oficial da DJ Franzoni, desenvolvido para apresentar sua trajetória artística, agenda de eventos e informações de contato de forma moderna, elegante e responsiva.
+Este é o portfólio oficial da DJ Franzoni, desenvolvido para apresentar sua trajetória artística, agenda de eventos e links de contato com um visual moderno, elegante e responsivo.
 
 ## 🌐 Acesse o site
 
@@ -8,10 +8,10 @@ Este é o portfólio oficial da DJ Franzoni, desenvolvido para apresentar sua tr
 
 ## ✨ Funcionalidades
 
-- ✅ Layout 100% responsivo (mobile-first)
-- ✅ Seções para biografia, eventos e contato
+- ✅ Layout responsivo (mobile-first)
+- ✅ Seções de biografia, agenda e links sociais
 - ✅ Integração com redes sociais
-- ✅ Interface leve, limpa e com ótima performance
+- ✅ Interface leve e de alta performance
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -19,29 +19,14 @@ Este é o portfólio oficial da DJ Franzoni, desenvolvido para apresentar sua tr
 - [Styled-Components](https://styled-components.com/)
 - [Vercel](https://vercel.com/) para deploy
 
-## 🚀 Como Executar Localmente
+## 🖼️ Prévia do Projeto
 
-Siga os passos abaixo para rodar o projeto na sua máquina:
+Abaixo, algumas capturas de tela do site em funcionamento:
 
-```bash
-# 1. Clone o repositório
-git clone https://github.com/vLecaBR/djfranzoni-portfolio.git
+### 💻 Desktop
 
-# 2. Acesse a pasta do projeto
-cd djfranzoni-portfolio
+![Página inicial desktop](assets/desktop-home.png)
 
-# 3. Instale as dependências
-npm install
+### 📱 Mobile
 
-# 4. Rode o servidor de desenvolvimento
-npm start
-```
-
-Acesse http://localhost:3000 no navegador para visualizar o projeto em execução.
-
----
-
-📄 Licença
-Este projeto é de uso pessoal/artístico e não possui uma licença específica de código aberto. Para uso ou adaptações, entre em contato com os responsáveis.
-
-💻Desenvolvido por @vLecaBR
+![Página inicial mobile](assets/mobile-home.png)
