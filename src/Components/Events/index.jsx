@@ -31,7 +31,7 @@ export default function Events() {
     { date: "10/05", name: "Reabilitarq", local: "Ribeirão Preto - SP" },
     { date: "16/05", name: "Baile das Coelinhas", local: "Ribeirão Preto - SP" },
     { date: "17/05", name: "Samba do Rei", local: "Franca - SP" },
-    { date: "22/05", name: "ARQuibancada", local: "Ribeirão Preto - SP" },
+    { date: "22/05", name: "Choppada do Branco", local: "Ribeirão Preto - SP" },
   ];
 
   return (
