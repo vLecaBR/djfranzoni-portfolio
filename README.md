@@ -29,6 +29,8 @@ Este projeto é de natureza pessoal e artística, e não está licenciado sob um
 [@vLecaBR](https://github.com/vLecaBR)
 
 ---
+---
+---
 
 # 🇺🇸 README in English
 # 🎧 DJ Franzoni - Portfolio
