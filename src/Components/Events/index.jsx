@@ -28,10 +28,9 @@ const isPastEvent = (eventDate) => {
 
 export default function Events() {
   const events = [
-    { date: "10/05", name: "Reabilitarq", local: "Ribeirão Preto - SP" },
-    { date: "16/05", name: "Baile das Coelinhas", local: "Ribeirão Preto - SP" },
-    { date: "17/05", name: "Samba do Rei", local: "Franca - SP" },
-    { date: "22/05", name: "Choppada do Branco", local: "Ribeirão Preto - SP" },
+    { date: "07/06", name: "IntegraBio", local: "Alfenas - MG" },
+    { date: "13/06", name: "El Bailon", local: "Ribeirão Preto - SP" },
+    { date: "21/06", name: "Ritmo Delas", local: "São Paulo - SP" },
   ];
 
   return (
