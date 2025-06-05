@@ -54,7 +54,7 @@ export default function Events() {
               <EventCard key={idx}>
                 <EventDate>{event.date}</EventDate>
                 <DetailsComponent>
-                  <strong>{event.name}</strong><br />
+                  <strong>{event.name}</strong><br/>
                   {event.local}
                 </DetailsComponent>
               </EventCard>

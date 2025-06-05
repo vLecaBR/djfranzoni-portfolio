@@ -34,14 +34,14 @@ export const EventCard = styled.div`
   display: flex;
   align-items: center;
   background: rgba(255, 255, 255, 0.05);
-  border-left: 4px solid #ED5AA5;
+  border-left: 10px solid #ED5AA5;
   padding: 1rem 1.5rem;
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s;
 
   &:hover {
-    transform: scale(1.02);
+    transform: scale(1.05);
   }
 
   @media (max-width: 600px) {
