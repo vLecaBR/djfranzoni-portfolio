@@ -28,10 +28,10 @@ const isPastEvent = (eventDate) => {
 
 export default function Events() {
   const events = [
-    { date: "07/06", name: "IntegraBio", local: "Alfenas - MG" },
+    { date: "07/06", name: "IntegraBio", local: "Alfenas - MG"  },
     { date: "13/06", name: "El Bailon", local: "Ribeirão Preto - SP" },
     { date: "14/06", name: "João Rock", local: "Ribeirão Preto - SP" },
-    { date: "21/06", name: "???", local: "São Paulo - SP" },
+    { date: "21/06", name: "Ritmo Delas", local: "São Paulo - SP" },
   ];
 
   return (
