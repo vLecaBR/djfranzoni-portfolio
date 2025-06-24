@@ -31,7 +31,8 @@ export default function Events() {
     { date: "07/06", name: "IntegraBio", local: "Alfenas - MG"  },
     { date: "13/06", name: "El Bailon", local: "Ribeirão Preto - SP" },
     { date: "14/06", name: "João Rock", local: "Ribeirão Preto - SP" },
-    { date: "21/06", name: "Ritmo Delas", local: "São Paulo - SP" },
+    { date: "27/06", name: "GOA Lounge", local: "Ribeirão Preto - SP" },
+    { date: "28/06", name: "Bar da Sparta", local: "Ribeirão Preto - SP" },
   ];
 
   return (
