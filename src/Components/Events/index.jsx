@@ -28,11 +28,11 @@ const isPastEvent = (eventDate) => {
 
 export default function Events() {
   const events = [
-    { date: "07/06", name: "IntegraBio", local: "Alfenas - MG"  },
-    { date: "13/06", name: "El Bailon", local: "Ribeirão Preto - SP" },
-    { date: "14/06", name: "João Rock", local: "Ribeirão Preto - SP" },
-    { date: "27/06", name: "GOA Lounge", local: "Ribeirão Preto - SP" },
-    { date: "28/06", name: "Bar da Sparta", local: "Ribeirão Preto - SP" },
+    { date: "01/08", name: "Arquibancada", local: "Ribeirão Preto - SP"  },
+    { date: "07/08", name: "Arq Odonto", local: "Ribeirão Preto - SP" },
+    { date: "07/08", name: "Folks Odonto", local: "Ribeirão Preto - SP" },
+    { date: "08/08", name: "Bar da Filó", local: "Ribeirão Preto - SP" },
+    { date: "28/08", name: "Ritmo Delas", local: "Ribeirão Preto - SP" },
   ];
 
   return (
