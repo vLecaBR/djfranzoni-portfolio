@@ -32,6 +32,7 @@ export default function Events() {
     { date: "07/08", name: "Arq Odonto", local: "Ribeirão Preto - SP" },
     { date: "07/08", name: "Folks Odonto", local: "Ribeirão Preto - SP" },
     { date: "08/08", name: "Bar da Filó", local: "Ribeirão Preto - SP" },
+    { date: "21/08", name: "Arquibancada", local: "Ribeirão Preto - SP" },
     { date: "29/08", name: "A Liga", local: "Ribeirão Preto - SP" },
   ];
 
