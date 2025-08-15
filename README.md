@@ -1,7 +1,7 @@
 # 🇧🇷 README em Português
 # 🎧 DJ Franzoni - Portfólio
 
-Este é o portfólio oficial da DJ Franzoni, desenvolvido para apresentar sua trajetória artística, agenda de eventos e formas de contato — tudo com um visual moderno, elegante e totalmente responsivo.
+Este é o portfólio oficial da DJ Franzoni, desenvolvido para apresentar sua trajetória artística, agenda de eventos e formas de contato tudo com um visual moderno, elegante e totalmente responsivo.
 
 ### 🌐 Acesse o site
 
@@ -35,7 +35,7 @@ Este projeto é de natureza pessoal e artística, e não está licenciado sob um
 # 🇺🇸 README in English
 # 🎧 DJ Franzoni - Portfolio
 
-This is the official portfolio of DJ Franzoni, developed to present her artistic journey, event schedule, and contact links — all with a modern, elegant, and fully responsive design.
+This is the official portfolio of DJ Franzoni, developed to present her artistic journey, event schedule, and contact links all with a modern, elegant, and fully responsive design.
 
 ### 🌐 Visit the Website
 
