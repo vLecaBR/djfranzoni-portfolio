@@ -61,6 +61,7 @@ export const EventDetails = styled.div`
   font-size: 1.125rem;
   color: #ddd;
   margin-left: 1rem;
+  text-align: left;
 
   @media (max-width: 600px) {
     margin-left: 0;
