@@ -5,22 +5,21 @@ export const NextEventsSection = styled.section`
   position: relative;
   padding: 5rem 1rem;
   text-align: center;
+  overflow: hidden;
 `;
 
 export const BackgroundEvents = styled.div`
   position: absolute;
   inset: 0;
-  background-image: url(${props => props.$image});
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  opacity: 0.2;
   z-index: 0;
+  overflow: hidden;
+`;
 
-  @media (max-width: 768px) {
-    background-attachment: scroll;
-  }
+export const BgImage = styled.img`
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.2;
 `;
 
 export const EventsList = styled.div`
@@ -28,6 +27,8 @@ export const EventsList = styled.div`
   flex-direction: column;
   gap: 1.5rem;
   margin-top: 2rem;
+  position: relative;
+  z-index: 1;
 `;
 
 export const EventCard = styled.div`
@@ -68,10 +69,10 @@ export const EventDetails = styled.div`
     margin-top: 0.5rem;
   }
 `;
+
 export const PassedEventDetails = styled(EventDetails)`
   text-decoration: line-through;
   opacity: 0.6;
 `;
-
 
 export { SectionContent, Title };

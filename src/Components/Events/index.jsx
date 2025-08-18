@@ -9,7 +9,8 @@ import {
   EventCard,
   EventDate,
   EventDetails,
-  PassedEventDetails
+  PassedEventDetails,
+  BgImage
 } from './Events.styles';
 
 // Função para converter string "dd/mm" em objeto Date
@@ -39,12 +40,20 @@ export default function Events() {
 
   return (
     <NextEventsSection>
-      <BackgroundEvents $image="/img/background_5.jpeg" />
+      <BackgroundEvents>
+        <BgImage
+          src="/img/background_5.webp"
+          alt="Background de eventos"
+          loading="lazy"
+        />
+      </BackgroundEvents>
+
       <SectionContent
         as={motion.div}
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
+        viewport={{ once: true }}
       >
         <Title>Próximos Eventos</Title>
         <EventsList>
@@ -54,7 +63,7 @@ export default function Events() {
             const DetailsComponent = isPast ? PassedEventDetails : EventDetails;
 
             return (
-              <EventCard key={idx}>
+              <EventCard key={idx} aria-label={`Evento ${event.name} em ${event.local} dia ${event.date}`}>
                 <EventDate>{event.date}</EventDate>
                 <DetailsComponent>
                   <strong>{event.name}</strong><br/>
