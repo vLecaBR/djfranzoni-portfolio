@@ -7,6 +7,8 @@ export const HeroSection = styled(Section)`
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+  overflow: hidden;
 
   @media (max-width: 768px) {
     height: auto;
@@ -18,16 +20,18 @@ export const HeroSection = styled(Section)`
 export const BackgroundHeroSec = styled.div`
   position: absolute;
   inset: 0;
-  background-image: url(${props => props.$image});
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  opacity: 0.2;
   z-index: 0;
+  overflow: hidden;
+`;
+
+export const BgImage = styled.img`
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.2;
 
   @media (max-width: 768px) {
-    background-attachment: scroll;
+    object-position: center;
   }
 `;
 
@@ -37,6 +41,7 @@ export const SectionContent = styled.div`
   max-width: 800px;
   margin: 0 auto;
   padding: 0 1rem;
+  text-align: center;
 `;
 
 export const LogoImage = styled.img`
