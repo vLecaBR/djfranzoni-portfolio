@@ -7,7 +7,10 @@ export default function Button() {
   };
 
   return (
-    <FloatingButtonWrapper onClick={handleClick}>
+    <FloatingButtonWrapper
+      onClick={handleClick}
+      aria-label="Ir para orçamento"
+    >
       Solicitar Orçamento
     </FloatingButtonWrapper>
   );
