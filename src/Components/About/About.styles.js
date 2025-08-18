@@ -23,4 +23,15 @@ export const BackgroundAbout = styled.div`
   }
 `;
 
-export { Title, Text, SectionContent };
+export const StyledText = styled(Text)`
+  max-width: 800px;
+  margin: 2rem auto 0;
+  line-height: 1.8;
+  font-size: 1.1rem;
+
+  p + p {
+    margin-top: 1rem;
+  }
+`;
+
+export { Title, SectionContent, StyledText as Text };
