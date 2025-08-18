@@ -13,8 +13,14 @@ export default function Footer() {
 
       <FooterColumn>
         <SocialLinks>
-          <a href="https://www.instagram.com/nofilter_creative/#" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.instagram.com/nofilter_creative/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram No Filter Creative"
+          >
             <FaInstagram />
+            <span className="sr-only"></span>
           </a>
         </SocialLinks>
       </FooterColumn>
