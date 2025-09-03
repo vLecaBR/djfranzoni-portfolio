@@ -35,7 +35,7 @@ export default function Events() {
     { date: "08/08", name: "Bar da Filó", local: "Ribeirão Preto - SP" },
     { date: "21/08", name: "Arquibancada", local: "Ribeirão Preto - SP" },
     { date: "22/08", name: "Deu Match Sparta", local: "Ribeirão Preto - SP" },
-    { date: "29/08", name: "A Liga", local: "Ribeirão Preto - SP" },
+    { date: "29/08", name: "Ritmo Delas", local: "São Paulo - SP" },
   ];
 
   return (
