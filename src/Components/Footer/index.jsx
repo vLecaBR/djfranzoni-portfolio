@@ -7,7 +7,12 @@ export default function Footer() {
     <FooterWrapper>
       <FooterColumn>
         <FooterText>
-          © {new Date().getFullYear()} Desenvolvido por Victor Leça | No Filter Creative. Todos os direitos reservados.
+          © {new Date().getFullYear()} Desenvolvido por <a 
+          href="https://victorleca.vercel.app/" 
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ textDecoration: 'none', color: 'inherit' }}
+          >Victor Leça</a> | No Filter Creative. Todos os direitos reservados.
         </FooterText>
       </FooterColumn>
 
