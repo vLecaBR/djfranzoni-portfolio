@@ -31,6 +31,7 @@ export default function Events() {
   const events = [
     { date: "12/09", name: "Arq", local: "Ribeirão Preto - SP"  },
     { date: "13/09", name: "Resort da LawLaw", local: "Ribeirão Preto - SP" },
+    { date: "19/09", name: "Baile da Nine", local: "Ribeirão Preto - SP" },
   ];
 
   return (
