@@ -29,8 +29,7 @@ const isPastEvent = (eventDate) => {
 
 export default function Events() {
   const events = [
-    { date: "22/11", name: "ArtHouse", local: "Ribeirão Preto - SP"  },
-    { date: "28/11", name: "Sparta 360", local: "Ribeirão Preto - SP" },
+    { date: "19/12", name: "NoFilter Room", local: "Ribeirão Preto - SP"  },
   ];
 
   return (
