@@ -33,6 +33,7 @@ export default function Events() {
     { date: "14/03", name: "Noite Paulista", local: "Ribeirão Preto - SP"  },
     { date: "27/03", name: "Circa", local: "Ribeirão Preto - SP"  },
     { date: "27/03", name: "Arq", local: "Ribeirão Preto - SP"  },
+    { date: "28/03", name: "Fluxo 808", local: "Campinas - SP"  },
   ];
 
   return (
